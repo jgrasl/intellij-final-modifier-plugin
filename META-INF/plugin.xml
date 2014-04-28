@@ -1,0 +1,22 @@
+<idea-plugin version="1">
+  <name>Insert Final Modifier</name>
+  <version>1.0</version>
+
+  <vendor email="joeshow87@gmail.com"></vendor>
+
+  <description>Insert final modifier automatically based on Code style issues inspection of Intellij</description>
+
+  <idea-version since-build="131"/>
+
+  <extensions defaultExtensionNs="com.intellij">
+  </extensions>
+
+
+  <actions>
+    <action id="FinalModifier" class="com.intellij.plugin.FinalModifier" text="Insert 'final' modifier"
+            description="Auto insert 'final' modifier">
+      <add-to-group group-id="EditorPopupMenu" anchor="last"/>
+    </action>
+  </actions>
+
+</idea-plugin>
