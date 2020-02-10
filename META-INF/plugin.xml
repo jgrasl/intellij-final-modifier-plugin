@@ -3,6 +3,8 @@
   <version>1.0</version>
 
   <vendor email="joeshow87@gmail.com"></vendor>
+  
+  <depends>com.intellij.modules.java</depends>
 
   <description>Insert final modifier automatically based on Code style issues inspection of Intellij</description>
 
