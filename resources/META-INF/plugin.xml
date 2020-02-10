@@ -1,9 +1,9 @@
-<idea-plugin version="1">
+<idea-plugin>
   <name>Insert Final Modifier</name>
   <version>1.1</version>
 
   <vendor email="joeshow87@gmail.com"></vendor>
-  
+
   <depends>com.intellij.modules.java</depends>
 
   <description>Insert final modifier automatically based on Code style issues inspection of Intellij</description>
